@@ -1,0 +1,2202 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/0d8e1c9927.js" crossorigin="anonymous"></script>
+
+    <style>
+:root{
+    --primary-color: #170055;
+}
+.viewed{
+  
+transition: all .5s;
+background-color: rgba(197, 194, 194, 0.932);
+border-radius: 50px;
+color: #000000;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        box-sizing: border-box;
+        background-color: var(--primary-color);
+      }
+      header{
+        position: relative;
+        text-align: center;
+      
+      }
+      .hidden{
+        opacity: 0;
+      
+        filter: blur(5px);
+      
+        transition: all 1.3s;
+      }
+      .show{
+
+        opacity: 1;
+        filter: blur(0px);
+        transition: all 1.2s;
+     
+      }
+
+
+#particles-js{
+  width: 100%;
+  height: 600px;
+
+
+}
+@media  screen and (min-width:1400px)  {
+    
+
+    .nav-bar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translateY(10px);
+    width: 747px;
+    color: rgb(201, 201, 201);
+    background-color: rgba(218, 213, 213, 0.2);
+    border-radius: 50px;
+    z-index: 1;
+}
+
+li:hover{
+transition: all .5s;
+background-color: rgba(197, 194, 194, 0.932);
+border-radius: 50px;
+color: #000000;
+}
+ul{
+    text-align: center;
+ 
+    padding: 10px;
+    display: flex;
+  
+}
+li{
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins";
+    padding: 20px 40px;
+}
+a{
+    text-decoration: none;
+    color: rgb(219, 217, 217);
+}
+a:hover{
+    transition: all .5s;
+    color: #000000;
+}
+.content{
+    height: 900px;
+}
+.info{
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    margin: auto;
+    color: white;
+    font-family: "Poppins";
+}
+.info h3{
+font-family:inherit;
+font-size: 30px;
+}
+.info p{
+    margin: auto;
+    text-align: center;
+padding: 10;
+width: 80%;
+font-size: 20px;
+}
+
+.Links{
+    margin: 30px;
+
+
+}
+.Links button{
+    background-color: transparent;
+    color: rgb(220, 209, 209);
+    text-align: center;
+   padding: 10;
+    border-radius: 50px;
+    border: 1px solid rgb(106, 14, 234);
+    margin-left: 20;
+}
+.Links button:hover{
+    transition: all .5s;
+    color: white;
+    background-color: #3c007b;
+    border: 1px solid rgb(226, 224, 229);
+}
+.Links button p{
+    font-size: 30;
+    display: flex;
+    justify-content: center;
+}
+.Links button p#in{
+    
+    font-size: 35;
+   
+}
+
+
+.Links i{
+
+    padding: 5;
+    font-size: 30px;
+}
+#skills{
+    padding: 20;
+    text-align: center;
+width: 80%;
+margin: auto;
+
+font-family: "Poppins";
+
+}
+#skills h2{
+color: white;
+padding: 10;
+
+}
+.item{
+    text-align: center;
+width: 120px;
+height: 150px;
+   
+    margin: 15;
+
+}
+.item-node{
+    text-align: center;
+width: 200px;
+height: 150px;
+   
+    margin: 15;
+
+}
+.img-java{
+    margin: auto;
+width: 120px;
+height: 120px;
+margin-bottom: 5;
+}
+.img-java img {
+    width: 100%;
+    height: 100%;
+}
+.img-html{
+    
+    margin: auto;
+width: 80px;
+height: 90px;
+margin-bottom: 10;
+}
+.img-html img {
+    width: 100%;
+    height: 100%;
+}
+
+.img-node{
+    padding-top: 35;
+ 
+    margin: auto;
+width: 200px;
+height: 60px;
+margin-bottom: 10;
+}
+.img-node img {
+    width: 100%;
+    height: 100%;
+}
+.item p  , .item-node p{
+    text-align: center;
+    color: white;
+}
+.skills-items{
+    padding: 20;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+       
+}
+
+#Education{
+    padding: 20;
+    text-align: center;
+width: 80%;
+margin: auto;
+font-family: "Poppins";
+
+}
+#Education h1{
+    color: white;
+    font-size: 35px;
+    padding: 10;
+    
+}
+.card{
+    margin: auto;
+ 
+    background-color: #fffffffe;
+    width: 70%;
+    height: 200px;
+    padding: 10;
+    border-radius: 10px;
+    margin-top: 50;
+    display: flex;
+    justify-content: center;
+}
+.card .img-holder{
+
+width: 159px;
+height: 160px;
+margin-left: 60;
+margin-top: 20;
+
+}
+.card .img-holder img {
+    width: 100%;
+    height: 100%;
+}
+.school-info{
+  
+  
+}
+.school-info h2{
+    padding: 10;
+    margin-top: 30;
+    text-align: center;
+}
+.school-info p{
+  
+    font-size: 18px;
+}
+.info-img{
+    width: 30px;
+    height: 30px;
+    
+
+}
+p#title{
+  display: flex;
+  padding-left: 20;
+    
+
+}
+p#desc{
+    padding: 20;
+}
+p#title img{
+    text-align: center;
+    margin-left: 15;
+    width: 30px;
+    height: 350x;
+}
+#project{
+    padding: 20;
+    text-align: center;
+width: 70%;
+margin: auto;
+font-family: "Poppins";
+color: rgb(11, 10, 10);
+
+}
+#project h1{
+    color: rgb(242, 237, 237);
+    margin-bottom: 40;
+
+}
+.left h2{
+padding: 20;
+color: rgb(0, 0, 0);
+
+
+}
+.left{
+padding: 25;
+    text-align: start;
+  
+}
+.right{
+   
+}
+.card-project{
+    background-color: #eee8e8;
+   
+    border-radius: 20px;
+ 
+    display: flex;
+
+    margin: 50;
+    
+}
+.project-pic{
+padding: 20;
+}
+.project-pic img{
+    width: 500px;
+    height: 400px;
+}
+
+.Links2{
+    margin: 20px;
+
+
+}
+.Links2 button{
+    background-color: transparent;
+    color: rgb(36, 33, 33);
+    text-align: center;
+   padding: 10;
+    border-radius: 50px;
+    border: 1px solid rgb(24, 23, 24);
+    margin-left: 20;
+}
+.Links2 button:hover{
+    transition: all .5s;
+    color: white;
+    background-color: #3c007b;
+    border: 1px solid rgb(226, 224, 229);
+}
+.Links2 button p{
+    font-size: 25;
+    display: flex;
+    justify-content: center;
+}
+.Links2 button p#in{
+    
+    font-size: 25;
+   
+}
+
+
+.Links2 i{
+
+    padding: 5;
+    font-size: 20px;
+}
+
+.min{
+
+   width: 60%;
+   margin-top: 50;
+   transition: all 1.5s;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+.focus{
+    width: 90%;
+   margin-top: 50;
+   transition: all .5s;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+
+.min .project-pic img{
+    width: 250px;
+    height: 200px;
+}
+#contact{
+    padding: 20;
+    text-align: center;
+width: 80%;
+margin: auto;
+font-family: "Poppins";
+
+}
+#contact h1{
+    color: white;
+    font-size: 35px;
+    padding: 10;
+    
+}
+#contact label{
+    padding: 10;
+    display: block;
+}
+#contact input{
+    padding: 15;
+    width: 50%;
+    font-family: "Poppins";
+    font-size: 20px;
+    border-radius: 10px;
+}
+#contact input:focus{
+    outline: none;
+}
+#contact input::placeholder{
+    font-family: "Poppins";
+    color: #828183;
+}
+Textarea{
+    width: 50%;
+    height: 30%;
+    resize: none;
+    font-family: "Poppins";
+    font-size: 20px;
+
+}
+
+Textarea::placeholder{
+    font-family: "Poppins";
+    color: #828183;
+}
+
+.Links3 button{
+    background-color: transparent;
+    color: rgb(255, 253, 253);
+    text-align: center;
+   padding: 10;
+    border-radius: 50px;
+    border: 1px solid rgb(245, 245, 245);
+    margin-left: 20;
+}
+.Links3 button:hover{
+    transition: all .5s;
+    color: rgb(0, 2, 126);
+    background-color: #ffffff;
+    border: 1px solid rgb(56, 8, 129);
+}
+.Links3 button p{
+    font-size: 25;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.Links3 i{
+
+    padding: 5;
+    font-size: 20px;
+}
+
+
+
+
+}
+@media  screen and (min-width:560px) and (max-width:700px)  {
+    
+    .nav-bar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: auto;
+  
+  
+    color: rgb(201, 201, 201);
+    background-color: rgba(218, 213, 213, 0.2);
+  
+    z-index: 1;
+}
+    
+    li:hover{
+    background-color: rgba(197, 194, 194, 0.932);
+    border-radius: 50px;
+    color: #000000;
+    }
+    ul{
+        text-align: center;
+     
+        padding: 5px;
+        display: flex;
+        flex-wrap: wrap;
+      
+    }
+    li{
+        text-decoration: none;
+        list-style: none;
+        font-family: "Poppins";
+        padding: 20px 40px;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(219, 217, 217);
+    }
+    a:hover{
+        color: #000000;
+    }
+    .content{
+        height: 900px;
+    }
+    .info{
+    position: absolute;
+    top: 250px;
+    width: 100%;
+    margin: auto;
+    color: white;
+    font-family: "Poppins";
+}
+.info h3{
+font-family:inherit;
+font-size: 30px;
+}
+.info p{
+    margin: auto;
+    text-align: center;
+padding: 10;
+width: 80%;
+font-size: 20px;
+}
+
+.Links{
+    margin: 30px;
+
+
+}
+.Links button{
+    background-color: transparent;
+    color: rgb(220, 209, 209);
+    text-align: center;
+   padding: 10;
+    border-radius: 50px;
+    border: 1px solid rgb(106, 14, 234);
+    margin-left: 20;
+    margin: 20;
+}
+.Links button:hover{
+    transition: all .5s;
+    color: white;
+    background-color: #3c007b;
+    border: 1px solid rgb(226, 224, 229);
+}
+.Links button p{
+    font-size: 30;
+    display: flex;
+    justify-content: center;
+}
+.Links button p#in{
+    
+    font-size: 35;
+   
+}
+
+
+.Links i{
+
+    padding: 5;
+    font-size: 30px;
+}
+    
+#skills{
+    padding: 20;
+    text-align: center;
+width: 80%;
+margin: auto;
+
+font-family: "Poppins";
+
+}
+#skills h2{
+color: white;
+padding: 10;
+
+}
+.item{
+    text-align: center;
+width: 120px;
+height: 150px;
+   
+    margin: 15;
+
+}
+.item-node{
+    text-align: center;
+width: 200px;
+height: 150px;
+   
+    margin: 15;
+
+}
+.img-java{
+    margin: auto;
+width: 120px;
+height: 120px;
+margin-bottom: 5;
+}
+.img-java img {
+    width: 100%;
+    height: 100%;
+}
+.img-html{
+    
+    margin: auto;
+width: 80px;
+height: 90px;
+margin-bottom: 10;
+}
+.img-html img {
+    width: 100%;
+    height: 100%;
+}
+
+.img-node{
+    padding-top: 35;
+ 
+    margin: auto;
+width: 200px;
+height: 60px;
+margin-bottom: 10;
+}
+.img-node img {
+    width: 100%;
+    height: 100%;
+}
+.item p  , .item-node p{
+    text-align: center;
+    color: white;
+}
+.skills-items{
+    padding: 20;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+       
+}
+
+
+#Education{
+    padding: 20;
+    text-align: center;
+width: 80%;
+margin: auto;
+font-family: "Poppins";
+
+}
+#Education h1{
+    color: white;
+    font-size: 35px;
+    padding: 10;
+    
+}
+.card{
+    margin: auto;
+ 
+    background-color: #fffffffe;
+    width: 80%;
+    height: 250px;
+    padding: 10;
+    border-radius: 10px;
+    margin-top: 50;
+    display: flex;
+    justify-content: center;
+}
+.card .img-holder{
+
+width: 159px;
+height: 160px;
+margin-left: 60;
+margin-top: 20;
+
+}
+.card .img-holder img {
+    width: 100%;
+    height: 100%;
+}
+.school-info{
+  
+  
+}
+.school-info h2{
+    padding: 10;
+    margin-top: 30;
+    text-align: center;
+}
+.school-info p{
+    margin-left: 0;
+    font-size: 18px;
+}
+
+.info-img{
+    width: 30px;
+    height: 30px;
+    
+
+}
+p#title{
+  display: flex;
+  padding-left: 20;
+    
+
+}
+p#desc{
+    padding: 20;
+}
+p#title img{
+    text-align: center;
+    margin-left: 15;
+    width: 30px;
+    height: 350x;
+}
+#project{
+    padding: 20;
+    text-align: center;
+width: 70%;
+margin: auto;
+font-family: "Poppins";
+color: rgb(11, 10, 10);
+
+}
+#project h1{
+    color: rgb(242, 237, 237);
+    margin-bottom: 40;
+
+}
+.left h2{
+padding: 20;
+color: rgb(0, 0, 0);
+
+
+}
+.left{
+padding: 25;
+    text-align: start;
+  
+}
+.right{
+   
+}
+.card-project{
+    background-color: #eee8e8;
+   
+    border-radius: 20px;
+ 
+    display: flex;
+
+    margin: 50;
+    
+}
+.project-pic{
+padding: 20;
+}
+.project-pic img{
+   display: none;
+}
+
+.Links2{
+    margin: 20px;
+
+
+}
+.Links2 button{
+    background-color: transparent;
+    color: rgb(36, 33, 33);
+    text-align: center;
+   padding: 10;
+    border-radius: 50px;
+    border: 1px solid rgb(24, 23, 24);
+    margin-left: 20;
+}
+.Links2 button:hover{
+    transition: all .5s;
+    color: white;
+    background-color: #3c007b;
+    border: 1px solid rgb(226, 224, 229);
+}
+.Links2 button p{
+    font-size: 25;
+    display: flex;
+    justify-content: center;
+}
+.Links2 button p#in{
+    
+    font-size: 25;
+   
+}
+
+
+.Links2 i{
+
+    padding: 5;
+    font-size: 20px;
+}
+
+.min{
+
+   width: 60%;
+   margin-top: 50;
+   transition: all 1.5s;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+.focus{
+    width: 90%;
+   margin-top: 50;
+   transition: all .5s;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+
+.min .project-pic img{
+display: none;
+}
+
+#contact{
+    padding: 20;
+    text-align: center;
+width: 80%;
+margin: auto;
+font-family: "Poppins";
+
+}
+#contact h1{
+    color: white;
+    font-size: 35px;
+    padding: 10;
+    
+}
+#contact label{
+    padding: 10;
+    display: block;
+}
+#contact input{
+    padding: 15;
+    width: 50%;
+    font-family: "Poppins";
+    font-size: 20px;
+    border-radius: 10px;
+}
+#contact input:focus{
+    outline: none;
+}
+#contact input::placeholder{
+    font-family: "Poppins";
+    color: #828183;
+}
+Textarea{
+    width: 50%;
+    height: 30%;
+    resize: none;
+    font-family: "Poppins";
+    font-size: 20px;
+
+}
+
+Textarea::placeholder{
+    font-family: "Poppins";
+    color: #828183;
+}
+
+.Links3 button{
+    background-color: transparent;
+    color: rgb(255, 253, 253);
+    text-align: center;
+   padding: 10;
+    border-radius: 50px;
+    border: 1px solid rgb(245, 245, 245);
+    margin-left: 20;
+}
+.Links3 button:hover{
+    transition: all .5s;
+    color: rgb(0, 2, 126);
+    background-color: #ffffff;
+    border: 1px solid rgb(56, 8, 129);
+}
+.Links3 button p{
+    font-size: 25;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.Links3 i{
+
+    padding: 5;
+    font-size: 20px;
+}
+    }
+@media  screen and (min-width:700px) and (max-width:1400px)  {
+    
+ 
+
+    .nav-bar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translateY(10px);
+    width: 747px;
+    color: rgb(201, 201, 201);
+    background-color: rgba(218, 213, 213, 0.2);
+    border-radius: 50px;
+    z-index: 1;
+}
+    
+    li:hover{
+    background-color: rgba(197, 194, 194, 0.932);
+    border-radius: 50px;
+    color: #000000;
+    }
+    ul{
+        text-align: center;
+     
+        padding: 5px;
+        display: flex;
+        flex-wrap: wrap;
+      
+    }
+    li{
+        text-decoration: none;
+        list-style: none;
+        font-family: "Poppins";
+        padding: 20px 40px;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(219, 217, 217);
+    }
+    a:hover{
+        color: #000000;
+    }
+    .content{
+        height: 900px;
+    }
+    .info{
+    position: absolute;
+    top: 250px;
+    width: 100%;
+    margin: auto;
+    color: white;
+    font-family: "Poppins";
+}
+.info h3{
+font-family:inherit;
+font-size: 30px;
+}
+.info p{
+    margin: auto;
+    text-align: center;
+padding: 10;
+width: 80%;
+font-size: 20px;
+}
+
+.Links{
+    margin: 30px;
+
+
+}
+.Links button{
+    background-color: transparent;
+    color: rgb(220, 209, 209);
+    text-align: center;
+   padding: 10;
+    border-radius: 50px;
+    border: 1px solid rgb(106, 14, 234);
+    margin-left: 20;
+    margin: 20;
+}
+.Links button:hover{
+    transition: all .5s;
+    color: white;
+    background-color: #3c007b;
+    border: 1px solid rgb(226, 224, 229);
+}
+.Links button p{
+    font-size: 30;
+    display: flex;
+    justify-content: center;
+}
+.Links button p#in{
+    
+    font-size: 35;
+   
+}
+
+
+.Links i{
+
+    padding: 5;
+    font-size: 30px;
+}
+    
+#skills{
+    padding: 20;
+    text-align: center;
+width: 80%;
+margin: auto;
+
+font-family: "Poppins";
+
+}
+#skills h2{
+color: white;
+padding: 10;
+
+}
+.item{
+    text-align: center;
+width: 120px;
+height: 150px;
+   
+    margin: 15;
+
+}
+.item-node{
+    text-align: center;
+width: 200px;
+height: 150px;
+   
+    margin: 15;
+
+}
+.img-java{
+    margin: auto;
+width: 120px;
+height: 120px;
+margin-bottom: 5;
+}
+.img-java img {
+    width: 100%;
+    height: 100%;
+}
+.img-html{
+    
+    margin: auto;
+width: 80px;
+height: 90px;
+margin-bottom: 10;
+}
+.img-html img {
+    width: 100%;
+    height: 100%;
+}
+
+.img-node{
+    padding-top: 35;
+ 
+    margin: auto;
+width: 200px;
+height: 60px;
+margin-bottom: 10;
+}
+.img-node img {
+    width: 100%;
+    height: 100%;
+}
+.item p  , .item-node p{
+    text-align: center;
+    color: white;
+}
+.skills-items{
+    padding: 20;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+       
+}
+
+
+#Education{
+    padding: 20;
+    text-align: center;
+width: 80%;
+margin: auto;
+font-family: "Poppins";
+
+}
+#Education h1{
+    color: white;
+    font-size: 35px;
+    padding: 10;
+    
+}
+.card{
+    margin: auto;
+ 
+    background-color: #fffffffe;
+    width: 80%;
+    height: 250px;
+    padding: 10;
+    border-radius: 10px;
+    margin-top: 50;
+    display: flex;
+    justify-content: center;
+}
+.card .img-holder{
+
+width: 159px;
+height: 160px;
+margin-left: 60;
+margin-top: 20;
+
+}
+.card .img-holder img {
+    width: 100%;
+    height: 100%;
+}
+.school-info{
+  
+  
+}
+.school-info h2{
+    padding: 10;
+    margin-top: 30;
+    text-align: center;
+}
+.school-info p{
+    margin-left: 0;
+    font-size: 18px;
+}
+
+.info-img{
+    width: 30px;
+    height: 30px;
+    
+
+}
+p#title{
+  display: flex;
+  padding-left: 20;
+    
+
+}
+p#desc{
+    padding: 20;
+}
+p#title img{
+    text-align: center;
+    margin-left: 15;
+    width: 30px;
+    height: 350x;
+}
+#project{
+    padding: 20;
+    text-align: center;
+width: 70%;
+margin: auto;
+font-family: "Poppins";
+color: rgb(11, 10, 10);
+
+}
+#project h1{
+    color: rgb(242, 237, 237);
+    margin-bottom: 40;
+
+}
+.left h2{
+padding: 20;
+color: rgb(0, 0, 0);
+
+
+}
+.left{
+padding: 25;
+    text-align: start;
+  
+}
+.right{
+   
+}
+.card-project{
+    background-color: #eee8e8;
+   
+    border-radius: 20px;
+ 
+    display: flex;
+
+    margin: 50;
+    
+}
+.project-pic{
+padding: 20;
+}
+.project-pic img{
+   display: none;
+}
+
+.Links2{
+    margin: 20px;
+
+
+}
+.Links2 button{
+    background-color: transparent;
+    color: rgb(36, 33, 33);
+    text-align: center;
+   padding: 10;
+    border-radius: 50px;
+    border: 1px solid rgb(24, 23, 24);
+    margin-left: 20;
+}
+.Links2 button:hover{
+    transition: all .5s;
+    color: white;
+    background-color: #3c007b;
+    border: 1px solid rgb(226, 224, 229);
+}
+.Links2 button p{
+    font-size: 25;
+    display: flex;
+    justify-content: center;
+}
+.Links2 button p#in{
+    
+    font-size: 25;
+   
+}
+
+
+.Links2 i{
+
+    padding: 5;
+    font-size: 20px;
+}
+
+.min{
+
+   width: 60%;
+   margin-top: 50;
+   transition: all 1.5s;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+.focus{
+    width: 90%;
+   margin-top: 50;
+   transition: all .5s;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+
+.min .project-pic img{
+display: none;
+}
+
+#contact{
+    padding: 20;
+    text-align: center;
+width: 80%;
+margin: auto;
+font-family: "Poppins";
+
+}
+#contact h1{
+    color: white;
+    font-size: 35px;
+    padding: 10;
+    
+}
+#contact label{
+    padding: 10;
+    display: block;
+}
+#contact input{
+    padding: 15;
+    width: 50%;
+    font-family: "Poppins";
+    font-size: 20px;
+    border-radius: 10px;
+}
+#contact input:focus{
+    outline: none;
+}
+#contact input::placeholder{
+    font-family: "Poppins";
+    color: #828183;
+}
+Textarea{
+    width: 50%;
+    height: 30%;
+    resize: none;
+    font-family: "Poppins";
+    font-size: 20px;
+
+}
+
+Textarea::placeholder{
+    font-family: "Poppins";
+    color: #828183;
+}
+
+.Links3 button{
+    background-color: transparent;
+    color: rgb(255, 253, 253);
+    text-align: center;
+   padding: 10;
+    border-radius: 50px;
+    border: 1px solid rgb(245, 245, 245);
+    margin-left: 20;
+}
+.Links3 button:hover{
+    transition: all .5s;
+    color: rgb(0, 2, 126);
+    background-color: #ffffff;
+    border: 1px solid rgb(56, 8, 129);
+}
+.Links3 button p{
+    font-size: 25;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.Links3 i{
+
+    padding: 5;
+    font-size: 20px;
+}
+    }
+
+    @media  screen and (max-width:560px)  {
+    
+
+    
+    .nav-bar{
+       
+    
+       
+       
+        width: 100%;
+    color: rgb(201, 201, 201);
+    background-color: rgba(218, 213, 213,.2);
+  
+    
+    }
+    li:hover{
+    background-color: rgba(197, 194, 194, 0.932);
+    border-radius: 50px;
+    color: #000000;
+    }
+    ul{
+        text-align: center;
+     
+        padding: 5px;
+        display: flex;
+        flex-wrap: wrap;
+      
+    }
+    li{
+        text-decoration: none;
+        list-style: none;
+        font-family: "Poppins";
+        padding: 20px 40px;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(219, 217, 217);
+    }
+    a:hover{
+        color: #000000;
+    }
+    .content{
+        height: 900px;
+    }
+    .info{
+    position: absolute;
+    top: 210px;
+    width: 100%;
+    margin: auto;
+    color: white;
+    font-family: "Poppins";
+}
+.info h3{
+font-family:inherit;
+font-size: 30px;
+}
+.info p{
+    margin: auto;
+    text-align: center;
+padding: 10;
+width: 80%;
+font-size: 20px;
+}
+
+.Links{
+    margin: 30px;
+
+
+}
+.Links button{
+    background-color: transparent;
+    color: rgb(220, 209, 209);
+    text-align: center;
+   padding: 10;
+    border-radius: 50px;
+    border: 1px solid rgb(106, 14, 234);
+    margin-left: 20;
+    margin: 20;
+}
+.Links button:hover{
+    transition: all .5s;
+    color: white;
+    background-color: #3c007b;
+    border: 1px solid rgb(226, 224, 229);
+}
+.Links button p{
+    font-size: 30;
+    display: flex;
+    justify-content: center;
+}
+.Links button p#in{
+    
+    font-size: 35;
+   
+}
+
+
+.Links i{
+
+    padding: 5;
+    font-size: 30px;
+}
+    
+#skills{
+   
+   
+    padding: 10;
+    text-align: center;
+width: 80%;
+margin: auto;
+margin-top: 300px;
+
+font-family: "Poppins";
+
+}
+#skills h2{
+color: white;
+padding: 10;
+
+}
+.item{
+    text-align: center;
+width: 120px;
+height: 150px;
+   
+    margin: 15;
+
+}
+.item-node{
+    text-align: center;
+width: 200px;
+height: 150px;
+   
+    margin: 15;
+
+}
+.img-java{
+    margin: auto;
+width: 120px;
+height: 120px;
+margin-bottom: 5;
+}
+.img-java img {
+    width: 100%;
+    height: 100%;
+}
+.img-html{
+    
+    margin: auto;
+width: 80px;
+height: 90px;
+margin-bottom: 10;
+}
+.img-html img {
+    width: 100%;
+    height: 100%;
+}
+
+.img-node{
+    padding-top: 35;
+ 
+    margin: auto;
+width: 200px;
+height: 60px;
+margin-bottom: 10;
+}
+.img-node img {
+    width: 100%;
+    height: 100%;
+}
+.item p  , .item-node p{
+    text-align: center;
+    color: white;
+}
+.skills-items{
+    padding: 20;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+       
+}
+
+
+#Education{
+    padding: 20;
+    text-align: center;
+width: 80%;
+margin: auto;
+font-family: "Poppins";
+
+}
+#Education h1{
+    color: white;
+    font-size: 35px;
+    padding: 10;
+    
+}
+.card{
+    margin: auto;
+ 
+    background-color: #fffffffe;
+    width: 90%;
+    height: 300px;
+    padding: 10;
+    border-radius: 10px;
+    margin-top: 50;
+    display: flex;
+    justify-content: center;
+}
+.card .img-holder{
+
+width: 159px;
+height: 160px;
+margin-left: 10;
+margin-top: 60;
+
+}
+.card .img-holder img {
+    width: 100%;
+    height: 100%;
+}
+.school-info{
+  
+  
+}
+.school-info h2{
+    padding: 10;
+    margin-top: 30;
+    text-align: center;
+}
+.school-info p{
+    margin-left: 0;
+    font-size: 18px;
+}
+
+.info-img{
+    width: 10px;
+    height: 10px;
+    
+
+}
+p#title{
+  display: flex;
+  padding-left: 20;
+    flex-wrap: wrap;
+
+}
+p#desc{
+    padding: 20;
+}
+p#title img{
+    text-align: center;
+    margin-left: 15;
+    width: 30px;
+    height: 350x;
+}
+#project{
+    padding: 20;
+    text-align: center;
+width: 70%;
+margin: auto;
+font-family: "Poppins";
+color: rgb(11, 10, 10);
+
+}
+#project h1{
+    color: rgb(242, 237, 237);
+    margin-bottom: 40;
+
+}
+.left h2{
+padding: 20;
+color: rgb(0, 0, 0);
+
+
+}
+.left{
+padding: 25;
+    text-align: start;
+  
+}
+.right{
+   
+}
+.card-project{
+    background-color: #eee8e8;
+   
+    border-radius: 20px;
+ 
+    display: flex;
+    
+}
+.project-pic{
+padding: 20;
+}
+.project-pic img{
+  display: none;
+}
+
+.Links2{
+    margin: 20px;
+
+
+}
+.Links2 button{
+    background-color: transparent;
+    color: rgb(36, 33, 33);
+    text-align: center;
+   padding: 10;
+    border-radius: 50px;
+    border: 1px solid rgb(24, 23, 24);
+    margin-left: 20;
+    margin-bottom: 10;
+}
+.Links2 button:hover{
+    transition: all .5s;
+    color: white;
+    background-color: #3c007b;
+    border: 1px solid rgb(226, 224, 229);
+}
+.Links2 button p{
+    font-size: 25;
+    display: flex;
+    justify-content: center;
+}
+.Links2 button p#in{
+    
+    font-size: 25;
+   
+}
+
+
+.Links2 i{
+
+    padding: 5;
+    font-size: 20px;
+}
+
+.min{
+
+width: 60%;
+margin-top: 50;
+transition: all 1.5s;
+margin-left: auto;
+margin-right: auto;
+
+}
+.focus{
+ width: 90%;
+margin-top: 50;
+transition: all .5s;
+margin-left: auto;
+margin-right: auto;
+}
+#contact{
+    padding: 20;
+    text-align: center;
+width: 80%;
+margin: auto;
+font-family: "Poppins";
+
+}
+#contact h1{
+    color: white;
+    font-size: 35px;
+    padding: 10;
+    
+}
+#contact label{
+    padding: 10;
+    display: block;
+}
+#contact input{
+    padding: 15;
+    width: 60%;
+    font-family: "Poppins";
+    font-size: 20px;
+    border-radius: 10px;
+}
+#contact input:focus{
+    outline: none;
+}
+#contact input::placeholder{
+    font-family: "Poppins";
+    color: #828183;
+}
+Textarea{
+    width: 60%;
+    height: 30%;
+    resize: none;
+    font-family: "Poppins";
+    font-size: 20px;
+
+}
+
+Textarea::placeholder{
+    font-family: "Poppins";
+    color: #828183;
+}
+
+.Links3 button{
+    background-color: transparent;
+    color: rgb(255, 253, 253);
+    text-align: center;
+   padding: 10;
+    border-radius: 50px;
+    border: 1px solid rgb(245, 245, 245);
+    margin-left: 20;
+}
+.Links3 button:hover{
+    transition: all .5s;
+    color: rgb(0, 2, 126);
+    background-color: #ffffff;
+    border: 1px solid rgb(56, 8, 129);
+}
+.Links3 button p{
+    font-size: 25;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.Links3 i{
+
+    padding: 5;
+    font-size: 20px;
+}
+
+
+
+
+    }
+
+
+
+
+    </style>
+</head>
+<body>
+    <header id="home">
+        <div id="particles-js">
+            <div class="nav-bar">
+                <ul>
+                    <li id="h"><a href="#home">Home</a></li>
+                    <li id="sk"> <a href="#skills">Skills</a></li>
+                    <li id="pj"><a href="#project">Projects</a></li>
+                    <li id="edu"><a href="#Education">Education</a></li>
+                    <li id="con"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="info">
+                <h3>Wanewa Blessing Netshodwe</h3>
+                <p>
+                    I am a proactive and driven Computer Science student at Tshwane University of Technology, I am eagerly seeking an internship opportunity to apply and expand upon my theoretical knowledge in a practical, real-world setting.
+                </p>
+
+                <div class="Links">
+                    <button><p><i class="fa-brands fa-github"></i> Github</p></button>
+                    <button><p id="in"><i class="fa-brands fa-linkedin-in"></i>LinkedIn</p></button>
+                
+                    </div>
+        </div>
+
+    </header>
+
+    <section id="skills" >
+        
+                <h2>My Skills</h2>
+
+
+                <div class="skills-items">
+
+                   <div class="item">
+                    <div class="img-java">
+                        <img src="./logos//java-logo-1.png" alt="Java logo">
+                
+                    </div>
+                    <p>Java</p>
+                      </div>
+
+                      <div class="item">
+                        <div class="img-java">
+                            <img src="./logos/javascript-logo.png" alt="Java logo">
+                    
+                        </div>
+                        <p>JavaScript</p>
+                          </div>
+
+
+                          <div class="item">
+                            <div class="img-java">
+                                <img src="./logos/spring-logo.png" alt="Java logo">
+                        
+                            </div>
+                            <p>Spring Boot</p>
+                              </div>
+                              
+                          <div class="item-node">
+                            <div class="img-node">
+                                <img src="./logos/nodejs-logo.png" alt="Java logo">
+                        
+                            </div>
+                            <p>Node JS</p>
+                              </div>
+
+                              
+                          <div class="item">
+                            <div class="img-html">
+                                <img src="./logos/html5-logo.png" alt="Java logo">
+                        
+                            </div>
+                            <p>Html</p>
+                              </div>
+
+                              <div class="item">
+                                <div class="img-html">
+                                    <img src="./logos/css3-logo.png" alt="Java logo">
+                            
+                                </div>
+                                <p>Css</p>
+                                  </div>
+
+                                  <div class="item-node">
+                                    <div class="img-node">
+                                        <img src="./logos/mongodb-logo.png" alt="Java logo">
+                                
+                                    </div>
+                                    <p>Mongo Db</p>
+                                      </div>
+
+                                      <div class="item">
+                                        <div class="img-html">
+                                            <img src="./logos/mysql-logo-1.png" alt="Java logo">
+                                    
+                                        </div>
+                                        <p>MySql</p>
+                                          </div>
+
+                                          <div class="item-node">
+                                            <div class="img-node">
+                                                <img src="./logos/kotlin-logo-1.png" alt="Java logo">
+                                        
+                                            </div>
+                                            <p>Kotlin</p>
+                                              </div>
+
+
+
+                </div>
+
+    </section>
+
+    <section id="Education" class="hidden">
+        <h1>Education</h1>
+        <div class="card">
+            <div class="img-holder">
+<img src="./logos/download.png" alt="">
+            </div>
+            <div class="school-info">
+                <h2>Diploma In Computer Science</h2>
+                <p>Tshwane University Of Technology</p>
+                <p >Anticipated Graduation 2024</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="project" class="hidden">
+        <h1> My Projects</h1>
+        <div class="projet-info">
+            <div class="card-project min pr">
+                <div class="left">
+                    <h2>BarberShop Website</h2>
+                    <p id="title">Project Made with  <img src="./logos/spring-logo.png" alt=""> <img src="./logos/java-logo-1.png" alt=""></p>
+                    <p id="desc">
+                        The Barber Booking System is a web application built using Spring Boot, designed to facilitate seamless appointment booking and customer feedback for a barber shop. This system enhances the user experience by allowing clients to schedule appointments conveniently online and leave reviews based on their haircut experience.
+                    </p>
+                    <div class="Links2">
+                        <button><p><i class="fa-brands fa-github"></i> Github</p></button>
+                        <button><p id="in"><i class="fa-solid fa-play"></i>Demo</p></button>
+                    
+                        </div>
+                </div>
+               <div class="right">
+
+                <div class="project-pic">
+    <img src="./logos/barber app.png" alt="" class="skew">
+                </div>
+               </div>
+    
+            </div>
+           
+            <div class="card-project min pr">
+                <div class="left">
+                    <h2>Word Guessing Game</h2>
+                    <p id="title">Project Made with  <img src="./logos/html5-logo.png" alt=""> <img src="./logos/javascript-logo.png" alt="">   <img src="./logos/css3-logo.png" alt=""> </p>
+                    <p id="desc">
+                        In this game, the  challenge is to guess a secret word.  This tests your knowledge, deduction skills, and a bit of luck to figure out the correct word within the given time.   
+                    </p>
+                    <div class="Links2">
+                        <a href="https://github.com/that056/guess"><button><p><i class="fa-brands fa-github"></i> Github</p></button></a>
+                        <a href="https://that056.github.io/guess/"><button><p id="in"><i class="fa-solid fa-play"></i>Demo</p></button>
+                        </a>
+                        </div>
+                </div>
+               <div class="right">
+
+                <div class="project-pic">
+    <img src="./logos/Screenshot 2024-06-26 095739.png" alt="" class="skew">
+                </div>
+               </div>
+    
+            </div>
+
+          
+
+            </div>
+            
+
+    </section>
+
+    <section id="contact" class="hidden">
+        <h1>Contact</h1>
+        <div class="form">
+
+            <form action="">
+                <label for="">
+                    <input type="email" placeholder="Email Address" required>
+                </label>
+                <label>
+                    <Textarea name="Message" placeholder="Message" required>
+                        
+                    </Textarea>
+                </label>
+                <label><div class="Links3"><button><p>Submit<i class="fa-brands fa-telegram"></i></p></button></div></label>
+
+
+            </form>
+        </div>
+        
+
+    </section>
+
+
+    <div class="content">
+
+    </div>
+    
+    <script src="particles.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+const observer = new IntersectionObserver((entries)=>{
+
+    entries.forEach((el)=>{
+        if(el.isIntersecting){
+            el.target.classList.remove('hidden')
+            el.target.classList.add('show')
+        }
+        else{
+            el.target.classList.add('hidden')
+            el.target.classList.remove('show')
+        }
+    })
+})
+
+document.querySelectorAll('.hidden').forEach(div=>{
+    observer.observe(div)
+})
+
+var educationSection = document.getElementById('Education');
+
+var observer2 = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+            console.log('User is on the #education section.');
+            document.querySelectorAll('li').forEach(el=>{
+                el.classList.remove('viewed')
+                document.querySelector('li#edu').classList.add('viewed')
+
+            })
+           
+            
+        }
+        else{
+            document.querySelector('li#edu').classList.remove('viewed')
+        }
+    });
+}, { threshold: 0.5 }); 
+
+observer2.observe(educationSection);
+var CSection = document.getElementById('contact');
+
+var observer10 = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+            console.log('User is on the #education section.');
+            document.querySelectorAll('li').forEach(el=>{
+                el.classList.remove('viewed')
+                document.querySelector('li#con').classList.add('viewed')
+
+            })
+           
+            
+        }
+        else{
+            document.querySelector('li#con').classList.remove('viewed')
+        }
+    });
+}, { threshold: 0.5 }); 
+
+observer10.observe(CSection);
+
+
+var hSection = document.getElementById('home');
+
+var observer9 = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+            console.log('User is on the #education section.');
+            document.querySelectorAll('li').forEach(el=>{
+                el.classList.remove('viewed')
+                document.querySelector('li#h').classList.add('viewed')
+
+            })
+           
+            
+        }
+        else{
+            document.querySelector('li#h').classList.remove('viewed')
+        }
+    });
+}, { threshold: 0.5 }); 
+
+observer9.observe(hSection);
+
+
+
+var pjSection = document.getElementById('project');
+
+var observer8 = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+            console.log('User is on the #education section.');
+            document.querySelectorAll('li').forEach(el=>{
+                el.classList.remove('viewed')
+                document.querySelector('li#pj').classList.add('viewed')
+
+            })
+           
+            
+        }
+        else{
+            document.querySelector('li#pj').classList.remove('viewed')
+        }
+    });
+}, { threshold: 0.5 }); 
+
+observer8.observe(pjSection);
+
+
+var SkillsSection = document.getElementById('skills');
+
+var observer3 = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+            console.log('User is on the #education section.');
+            document.querySelectorAll('li').forEach(el=>{
+                el.classList.remove('viewed')
+                document.querySelector('li#sk').classList.add('viewed')
+
+            })
+           
+        }
+        else{
+            document.querySelector('li#sk').classList.remove('viewed')
+        }
+    });
+}, { threshold: 0.5 }); 
+
+observer3.observe(SkillsSection);
+
+
+const observe5 = new IntersectionObserver((el)=>{
+    el.forEach(e =>{
+        if(e.isIntersecting){
+          
+                e.target.classList.remove('min')
+               
+                e.target.classList.add('focus')
+              
+           
+        }
+        else{
+         
+                e.target.classList.add('min')
+          
+              
+            
+        }
+    })
+})
+document.querySelectorAll('.pr').forEach(e=>{
+    observe5.observe(e)
+})
+
+document.querySelectorAll('.nav-bar a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                console.log(targetElement)
+
+                // Calculate distance from top
+                const offsetTop = targetElement.offsetTop;
+
+                // Smooth scroll animation
+                window.scrollTo({
+                    top: offsetTop,
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+
+
+    </script>
+</body>
+</html>
